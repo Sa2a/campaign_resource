@@ -37,6 +37,14 @@ var Campaign = /** @class */ (function () {
         typeorm_1.Column(),
         __metadata("design:type", String)
     ], Campaign.prototype, "category", void 0);
+    __decorate([
+        typeorm_1.Column('date'),
+        __metadata("design:type", Date)
+    ], Campaign.prototype, "startDate", void 0);
+    __decorate([
+        typeorm_1.Column('date'),
+        __metadata("design:type", Date)
+    ], Campaign.prototype, "endDate", void 0);
     Campaign = __decorate([
         typeorm_1.Entity()
     ], Campaign);

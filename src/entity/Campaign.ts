@@ -20,4 +20,10 @@ export class Campaign {
 
     @Column()
     category: string;
+
+    @Column('date')
+    startDate: Date;
+
+    @Column('date')
+    endDate: Date;
 }
